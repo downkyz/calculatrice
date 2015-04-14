@@ -34,7 +34,7 @@ public class Fenetre extends JFrame {
         // titre de la fenetre
         this.setTitle("Ma première fenêtre Java");
         //taille de la fenetre
-        this.setSize(800, 700);
+        this.setSize(500, 700);
         // ferme la fenêtre lorsque l'on appuie sur la croix
         this.setDefaultCloseOperation(Fenetre.EXIT_ON_CLOSE);             
         // centre la fenetre
