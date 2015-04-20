@@ -19,7 +19,7 @@ public class ActionEgale implements ActionListener {
      */
     @Override
     public void actionPerformed(ActionEvent arg0) {
-        System.out.println("ok");
+        // TODO Auto-generated method stub
 
     }
 

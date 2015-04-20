@@ -4,6 +4,7 @@
  */
 package iut.info1.projetS2;
 
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,12 +17,13 @@ import javax.swing.JButton;
  * @version 1.0
  */
 public class ActionChiffre implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
 
-            // Affiche le chiffre correspondant dans le label écran de la calculatrice
-            String str = ((JButton)e.getSource()).getText();
-            if(!Calculatrice.ecran.getText().equals("0"))
-                str = Calculatrice.ecran.getText() + str;
-            Calculatrice.ecran.setText(str);
-        }
+    public void actionPerformed(ActionEvent e) {
+
+        // Affiche le chiffre correspondant dans le label écran de la calculatrice
+        String str = ((JButton)e.getSource()).getText();
+        if(!Calculatrice.ecran.getText().equals("0"))
+            str = Calculatrice.ecran.getText() + str;
+        Calculatrice.ecran.setText(str);
+    }
 }
