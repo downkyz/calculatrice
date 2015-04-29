@@ -18,7 +18,7 @@ public class Lanceur {
     public static void main(String[] args) {
         new Calculatrice();
         // BITE JONATHAN 8===================================>
-
+        // lolarderie à l'ancienne
     }
 
 }
